@@ -12,7 +12,7 @@ def get_spark_session(app_name="StreamlitApp"):
 
 # Function to load the model (adjust the path as necessary)
 @st.experimental_singleton
-def load_model(model_path="path/to/your/model"):
+def load_model(model_path="model/rf_model" ):
     spark = get_spark_session()
     return PipelineModel.load(model_path)
 
