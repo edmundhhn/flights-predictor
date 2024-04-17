@@ -27,10 +27,10 @@ Below are the main cluster specifications we utilized to complete our project
 After the data is on GCS, pull the code from this repo and you may now run the scripts in the following order
 
 1. __EDA__ : eda_with_spark.ipynb. This runs the EDA script with visualizations used in our report/presentation
-2. __Preprocess Variables__: preprocess_variables.ipynb. This will save a new parquet file which you will load in subsequent scripts.
+2. __Preprocess Variables__: preprocess_variables.ipynb. This will save a new parquet file which is the final dataset you will load in subsequent scripts.
 3. __Baseline Model__: baseline_model.ipynb. This is the baseline model benchmark before further fine tuning/optimization
-4. __Tuned Models__: hyperparameter_tuning.ipynb. These are our fine tuned models and their metrics found through grid search
-5. __User Interface__: streamlit_demo.py. This is a script to open a streamlit based web application for our project.
+4. __Tuned Models__: hyperparameter_tuning.ipynb (Random Forest), gbt_model_tuning_ATL_.ipynb (GBT), linear_model_tuning-2.ipynb (Linear Regression), xgboost_model_tuning.ipynb (XGBoost)  These are our fine tuned models and their metrics found through grid search.
+5. __User Interface__: stream_lit directory. This is a directory of scripts to open a streamlit based web application for our project. streamlit_demo.py is the file to run to create the interface.
 
 # Resources 
 
